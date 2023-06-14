@@ -279,6 +279,7 @@ svg {
 							color: var(--title-color);
 							font-size: 1.5rem;
 							clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
 							
 						transition: transform .4s;
 							}
