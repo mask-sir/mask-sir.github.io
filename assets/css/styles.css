@@ -198,7 +198,7 @@ svg {
 		height: 100%;
 		padding: 4.5rem 0 0 3rem;
 		background-filter: blur(24px);
-		-webkit-backdrop-filter: blur(24px); /* for safari */
+		-webkit-background-filter: blur(24px); /* for safari */
 		transition: right .4s;
 		
 		
