@@ -224,9 +224,19 @@ svg {
        }
 
 /* Show menu */
-.show-menu{
+
+
+/* .show-menu{
 	right: 0;
 	}
+*/
+
+/* Show menu */
+.show-menu {
+  right: 0;
+  backdrop-filter: blur(8px); /* Add the desired blur value */
+  -webkit-backdrop-filter: blur(8px); /* Add the desired blur value for Safari */
+}
 
 /* Add blur to header */
 
