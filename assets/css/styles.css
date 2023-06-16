@@ -19,8 +19,8 @@
       -> Copy the color mode (HSL)
   */
 
-  --hue: 162;
-  --first-color: hsl(var(--hue), 100%, 40%);
+  --hue: 210;
+  --first-color: hsl(var(--hue), 100%, 70%);
   --first-color-alt: hsl(var(--hue), 56%, 35%);
   --title-color: hsl(228, 8%, 95%);
   --text-color: hsl(228, 8%, 65%);
@@ -304,7 +304,19 @@ svg {
 		
 
 /*=============== BUTTON ===============*/
+.button{
+display: inline-block;
+background-color: var(--first-color);
+padding: 1rem 1.75rem; :
+border-radius: .5rem;
+color: var(--title-color);
+font-weight: var(--font-medium);
+transition: box-shadow .4s;
 
+}
+.button: hover{
+	box-shadow: 0 8px 24px hsla(--hue), 100%, 40%, .25);
+	}
 
 /*=============== ABOUT ===============*/
 
