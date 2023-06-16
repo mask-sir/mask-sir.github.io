@@ -1,4 +1,4 @@
-<svg viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg class="about__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
    <mask id="maskBorder" mask-type="alpha">
       <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
       171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
@@ -28,6 +28,6 @@
       </pattern>
 
       <!-- Insert your profile (recommended size: 640 x 940) -->
-      <image id="imageBorder" width="640" height="940" href=""/>
+      <image class="about__img"  id="imageBorder" width="640" height="940" href="assets/img/profile.png"/>
    </defs>
 </svg>

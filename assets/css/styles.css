@@ -197,8 +197,8 @@ svg {
 		width: 75%;
 		height: 100%;
 		padding: 4.5rem 0 0 3rem;
-		background-filter: blur(24px);
-		-webkit-background-filter: blur(24px); /* for safari */
+		backdrop-filter: blur(24px);
+		-webkit-backdrop-filter: blur(24px); /* for safari */
 		transition: right .4s;
 		
 		
@@ -239,7 +239,21 @@ svg {
 }
 
 /* Add blur to header */
-
+.blur-header{
+	background-color: transparent;
+	}
+	.blur-header::after{
+		content: '';
+		position: absolute;
+		width: 1000%;
+		height: 100%
+		background-color: hsla(0, 0%, 10%, .3);
+		backdrop-filter: blur(24px);
+		-webkit-backdrop-filter: blur(24px); /* for safari */
+		top: 0;
+		left: 0;
+		z-index: -1;
+		}
 
 /* Active link */
 
@@ -331,7 +345,24 @@ svg {
 
 /*=============== ABOUT ===============*/
 
-
+.about__container{
+	row-gap: 2.5rem;
+	}
+	.about__data{
+		text-align: center;
+		}
+		.about__description{
+			margin-bottom: 2rem;
+			}
+			.about__image{
+				justify-self: center;
+				}
+				.about__blob{
+					width: 320px;
+					}
+					.about__blob path{
+						stroke: var(--first-color);
+						}
 /*=============== SKILLS ===============*/
 
 
