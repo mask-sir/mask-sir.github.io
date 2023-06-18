@@ -514,39 +514,39 @@ svg {
 /*=============== PROJECTS ===============*/
 
 /*=============== CONTACT ===============*/
-.section.contact {
+section.contact {
   padding-top: 1rem;
 }
 
-.contact__form,
-.contact__group {
+section.contact .contact__form,
+section.contact .contact__group {
   display: grid;
   row-gap: 1rem;
 }
 
-.contact__input {
+section.contact .contact__input {
   padding: 1rem 1.25rem;
   border-radius: 0.5rem;
   background-color: var(--container-color);
   color: var(--title-color);
 }
 
-.contact__input::placeholder {
+section.contact .contact__input::placeholder {
   color: var(--text-color);
 }
 
-.contact__form textarea {
+section.contact .contact__form textarea {
   height: 11rem;
   resize: none;
   margin-bottom: 2rem;
 }
 
-.contact__button {
+section.contact .contact__button {
   justify-self: center;
   cursor: pointer;
 }
 
-.contact__message {
+section.contact .contact__message {
   font-size: var(--small-font-size);
   color: var(--title-color);
   margin-top: 1rem; /* Add this line to adjust the margin */
