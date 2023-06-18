@@ -426,7 +426,20 @@ svg {
 
 
 /*=============== PROJECTS ===============*/
-
+.projects{
+	background-color: var(--container-color);
+	}
+	
+.projects__container{
+	row-gap: 2rem;
+	justify-content: center;
+	padding-block: 1rem;
+	}
+.projects__card{
+	position: relative;
+	border-radius: 1rem;
+	overflow: hidden;
+	}
 
 /*=============== CONTACT ===============*/
 
