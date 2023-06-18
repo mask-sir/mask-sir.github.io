@@ -501,7 +501,7 @@ bottom: 0;
 		display: grid;
 		row-gap: 1rem;
 		}
-		. container__form{
+		.container__form{
 			position: relative;
 			}
 			.contact__input{
