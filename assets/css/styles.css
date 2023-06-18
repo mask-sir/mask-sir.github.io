@@ -246,7 +246,7 @@ svg {
 .blur-header::after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 1000%;
   height: 100%;
   background-color: hsla(0, 0%, 10%, 0.3);
   backdrop-filter: blur(24px);
