@@ -219,7 +219,7 @@ svg {
           }
        .nav__close{
        	position: absolute;
-       top: 1rem
+       top: 1rem;
        right: 1.5rem;
        }
 
@@ -244,11 +244,11 @@ svg {
 }
 
 .blur-header::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: hsla(0, 0%, 10%, .3);
+  background-color: hsla(0, 0%, 10%, 0.3);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px); /* for Safari */
   top: 0;
@@ -381,13 +381,13 @@ svg {
 				display: grid;
 				}
 				.skills__content{
-					grid-template-columns; repeat(2, max-content);
+					grid-template-columns: repeat(2, max-content);
 					column-gap: 4rem;
 					justify-content: center;
 					align-items: baseline;
 					}
 					.skills__group{
-						row-gap; 1rem;
+						row-gap: 1rem;
 						list-style: decimal-leading-zero;
 						}
 						.skills__item{
@@ -420,6 +420,7 @@ svg {
      .services__title{
      	font-size: var(--h2-font-size);
      margin-bottom: 1.5rem;
+     }
      .services__card:hover{
      	border: 2px solid var(--first-color);
      }
