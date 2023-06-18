@@ -426,25 +426,25 @@ svg {
 
 
 /*=============== PROJECTS ===============*/
-.projects{
+.project{
 	background-color: var(--container-color);
 	}
-	.projects__container{
+	.project__container{
 		row-gap: 2rem;
 		justify-content: center;
 		padding-block: 1rem;
 		}
-		.projects__card{
+		.project__card{
 			position: relative;
 			border-radius: 1rem;
 			overflow: hidden;
 			}
 			
-			.projects__img{
+			.project__img{
 				width: 100%;
 				height: 100%;
 				}
-				.projects__modal{
+				.project__modal{
 					position: absolute;
 					left: 0;
 					bottom: 0; /* -100% */
@@ -464,30 +464,30 @@ svg {
 			
 }
                
-               .projects__subtitle,
-               .projects__button{
+               .project__subtitle,
+               .project__button{
                	color: var(--title-color);
                font-size: var(--small-font-size);
                }
-               .projects__subtitle{
+               .project__subtitle{
                	display: block;
                margin-bottom: .25rem;
                }
-               .projects__title{
+               .project__title{
                	font-size: var(--h2-font-size);
                margin-bottom: .75rem;
                }
-               .projects__button{
+               .project__button{
                	display: flex;
                align-items: center;
                column-gap: .5rem;
                font-weight: var(--font-medium);
                }
                
-               . projects__button i{
+               . project__button i{
                	font-size: 1.25rem;
                }
-     .projects__card:hover .projects__modal{
+     .project__card:hover .project__modal{
 bottom: 0;
    }       
 
