@@ -392,6 +392,27 @@ Recent Projects
       <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
+    <script>
+  const navToggle = document.getElementById("nav-toggle");
+  const navMenu = document.getElementById("nav-menu");
+  const navClose = document.getElementById("nav-close");
+
+  // Show Menu
+  if (navToggle) {
+    navToggle.addEventListener("click", () => {
+      navMenu.classList.add("show-menu");
+    });
+  }
+
+  // Hide Menu
+  if (navClose) {
+    navClose.addEventListener("click", () => {
+      navMenu.classList.remove("show-menu");
+    });
+  }
+</script>
+
+
+  <script src="assets/js/main.js"></script>
    </body>
 </html>
