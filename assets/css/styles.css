@@ -533,6 +533,23 @@ svg {
   color: var(--title-color);
   margin-top: 1rem; /* Add this line to adjust the margin */
 }
+.battery-box {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.battery-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-battery-full {
+  color: green;
+  font-size: 24px;
+}
 
 /*=============== FOOTER ===============*/
 
