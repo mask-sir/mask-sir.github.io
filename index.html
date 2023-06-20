@@ -320,6 +320,39 @@ libraries of the labor field.
         </form>
       </div>
     </section>
+    
+    
+    
+ <div class="text-xs font-weight-bold text-uppercase mb-1">Battery</div>
+<span id="battery_level" class="h5 mb-0 font-weight-bold">Waiting...</span>
+</div>
+<div class="col-auto">
+  <i class="fa fa-battery-full"></i>
+</div>
+
+<script>
+	
+	const tagBatteryStatus = document.querySelector('small#battery_status');
+const tagBatteryLevel = document.querySelector('span#battery_level');
+
+// Battery
+setInterval(function() {
+  navigator.getBattery().then(battery => {
+    const batteryLevel = String(battery.level).split('.')[1];
+    tagBatteryLevel.innerHTML = `${(batteryLevel.length <= 1) ? padZero(Number(batteryLevel)) : batteryLevel}% ${battery.charging ? 'charging' : 'discharging'}`;
+  });
+}, 10);
+
+// Function to pad zero if battery level has single digit
+function padZero(level) {
+  return level.toString().padStart(2, '0');
+}
+
+</script>
+
+  
+    
+    
       </main>
 
       <!--==================== FOOTER ====================-->
