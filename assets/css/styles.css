@@ -538,6 +538,7 @@ svg {
   border: 2px solid var(--container-color);
   border-radius: 1px;
   padding: 3rem 1.25rem;
+  width: 5rem;
 }
 
 .battery-content {
