@@ -534,10 +534,10 @@ svg {
   margin-top: 1rem; /* Add this line to adjust the margin */
 }
 .battery-box {
-  background-color: #f1f1f1;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
+   background-color: var(--container-color);
+  border: 2px solid var(--container-color);
+  border-radius: 1px;
+  padding: 3rem 1.25rem;
 }
 
 .battery-content {
